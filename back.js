@@ -4,10 +4,10 @@ function greetings()
     if(name==="")
     {
         name="Friend!";
-        alert("Hello! " + name);
+        alert("Hello! " + name + "\n Have a Good Day");
     }
     else
     {
-        alert("Hello! " + name);
+        alert("Hello! " + name + "\n Have a Good Day");
     }
 }
