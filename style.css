@@ -3,9 +3,16 @@ body{
 }
 
 #myself{
-    font-size: large;
+    font-style: italic;
 }
 
 #contacts{
     vertical-align: 100%;
 }
+
+.pad{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
