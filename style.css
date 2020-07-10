@@ -28,3 +28,7 @@ body{
 .my-nav { 
     margin-left: auto; 
 } 
+
+#box{
+    padding-left: 15in;
+}
