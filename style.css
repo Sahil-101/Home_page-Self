@@ -8,12 +8,12 @@ body{
 
 @media only screen and  (min-width: 1000px){
     #main_title .text_main_title {
-        padding-left: 10%;
+        padding-right: 10%;
     }
     
 
     #main_title .col-lg-6 img{
-        margin-right: 10%;
+        margin-left: 10%;
     }
 }
 
@@ -38,10 +38,8 @@ body{
 }
 
 #main_title .col-lg-6 img{
-    margin-top: 5%;
-    width : 40%;
-    height: 65%;
-    border-radius: 100%;
+    width : 60%;
+    height: 75%;
 }
 
 .skills{
