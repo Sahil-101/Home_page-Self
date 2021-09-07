@@ -1,34 +1,108 @@
 body{
+    text-align: center;
+}
+
+#main_title{
     background-color:#CFEAFF;
 }
 
-#myself{
-    font-style: oblique;
-    font-family: Arial, Helvetica, sans-serif ;
+@media only screen and  (min-width: 1000px){
+    #main_title .text_main_title {
+        padding-left: 10%;
+    }
+    
+
+    #main_title .col-lg-6 img{
+        margin-right: 10%;
+    }
 }
 
-#contacts{
-    vertical-align: 100%;
+.col-lg-6{
+    padding: 0%;
 }
 
-.pad{
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+.ul
+{
+    max-width: 100%;
+}
+
+.navbar{
+    max-width: 100%;
+    padding: 0.5% 5%;
+    margin-right: 0%;
+}
+
+#main_title .text_main_title {
+    padding-top: 8%;
+    margin-bottom: 0%;
+}
+
+#main_title .col-lg-6 img{
+    margin-top: 5%;
+    width : 40%;
+    height: 65%;
+    border-radius: 100%;
+}
+
+.skills{
+    margin-top: 1%;
+}
+.skills .col-lg-6 div{
+    height: 50vh;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+#programmer_gif{
+    height: 100%;
+    max-width: 100%;
+}
+
+.skills .col-lg-6 div ul{
+    padding-top: 8%;
+    margin-left: 10%;
+    text-align: left;
+    display: inline-block;
+    font-size: x-large;
+}
+
+#projects{
+    height: 70vh;   
+    background-color: #EFEFEF;
+}
+
+.carousel-item{
+    height: 60vh;
+}
+.carousel-caption{
+    margin-top: 15%;
+}
+
+
+footer{
+
+    background-color:#39A2DB;
+    height: 40vh;
+    padding: 10% 5%;
+    text-align: center;
+    margin-top: 5%;
+  
+  }
+  
+  .footercon a img{
+  
+    height: 40px;
+    width: 40px;
+    margin: 5%;
+  
+  }
+  
+  .footercon{
+  
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  
   }
 
-  .circular--square {
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-  }
-
-.my-nav { 
-    margin-left: auto; 
-} 
-
-#box{
-    padding-left: 15in;
-}
+  /* 405f70 */
